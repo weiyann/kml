@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>多邊形 1</name>
+    <Style id="poly-E65100-6201-209-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>d10051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-E65100-6201-209-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>9.3015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>d10051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-E65100-6201-209-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-6201-209-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-6201-209-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F9A825-12500-77-nodesc-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>12.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d25a8f9</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-F9A825-12500-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>18.75</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d25a8f9</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-F9A825-12500-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F9A825-12500-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F9A825-12500-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>多邊形 1</name>
+      <styleUrl>#poly-F9A825-12500-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              121.5357723,25.0402571,0
+              121.532854,25.0354162,0
+              121.5363516,25.0336081,0
+              121.5365018,25.0335303,0
+              121.5357723,25.0402571,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>多邊形 2</name>
+      <styleUrl>#poly-E65100-6201-209-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              121.5519299,25.0573833,0
+              121.5974202,24.863315,0
+              121.7265095,24.995321,0
+              121.5519299,25.0573833,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
